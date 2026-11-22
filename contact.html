@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | L&amp;J Digital</title>
+<meta name="description" content="Websites designed, built and looked after for small businesses.">
+<meta name="color-scheme" content="dark">
+<link rel="icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="dust" aria-hidden="true"></canvas>
+<div class="loader" aria-hidden="true"><img src="logo-mark.webp" alt="" width="140" height="80"><i></i></div>
+<header>
+  <div class="wrap bar">
+    <a class="mark" href="index.html" aria-label="L&amp;J Digital home"><img src="logo-mark.webp" alt="L&amp;J" width="70" height="40"><span>Digital</span></a>
+    <nav aria-label="Main"><a href="index.html">Home</a><a href="services.html">Services</a><a href="process.html">Process</a><a href="contact.html" aria-current="page">Contact</a></nav>
+  </div>
+  <div id="prog"></div>
+</header>
+<main id="top">
+  <div class="wrap ph">
+    <h1>Tell us about your project</h1>
+    <p class="lede">Send a few details and we will reply with ideas and a clear quote.</p>
+  </div>
+  <section class="s">
+    <i class="orb" data-par="0.15" style="left:-220px;bottom:-10%"></i>
+    <div class="wrap" style="max-width:640px;margin:0 auto">
+      <form id="form">
+        <label>Your name<input name="name" autocomplete="name" required></label>
+        <label>Email address<input name="email" type="email" autocomplete="email" required></label>
+        <label>What do you need?<textarea name="msg" required></textarea></label>
+        <button class="btn solid" type="submit">Send message</button>
+        <p class="note">This opens your email app with the message ready to send.</p>
+      </form>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap"><span>&copy; <span id="yr">2026</span> L&amp;J Digital</span><span>Demo website</span></div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
